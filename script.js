@@ -1,7 +1,7 @@
 //your code here
 let btn = document.getElementById('btn');
 let op = document.getElementById('respond');
-let Number = document.getElementById('num');
+let Number = document.getElementById('Number');
 function genRandomNum() {
     document.getElementById("num").innerHTML =Math.floor( Math.random()*40-20);
 }
